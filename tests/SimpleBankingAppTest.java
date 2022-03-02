@@ -62,7 +62,7 @@ public class SimpleBankingAppTest {
 		double balanceAfter = mainApp.getBalance("5495-1234");
 		// The balance from before this test minus the amount withdrawn should be equal to the new account balance.
 		assert balanceBefore - withdrawAmount == balanceAfter;
-		System.out.println("testDeposits: TC1 passed.");
+		System.out.println("testWithdrawals: TC2 passed.");
 
 		// tear-down: put the system state back in where it was
 		// Add back the value withdrawn.
