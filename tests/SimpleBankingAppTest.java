@@ -22,7 +22,7 @@ public class SimpleBankingAppTest {
 		assert mainApp.users.size() == 3;
 		System.out.println("testDataLoads: populateUserData: TC1 passed.");
 		// The above only verification is basic (simple, weak) 
-		// To do STRONGER verification, we would need more assertions for user names and account balances, etc.
+		// To do STRONGER verification, we would need more assertions for usernames and account balances, etc.
 		
 		mainApp.populateAccountData();
 		assert mainApp.accounts.size() == 4;
